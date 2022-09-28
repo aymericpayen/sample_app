@@ -12,6 +12,7 @@ class UsersController < ApplicationController
     @user = User.new(user_params)
     if @user.save
       #flash is hash an empty hash taking a key a value setup by programmer
+      log_in @user
       flash[:success] = "Signup completed, Welcome to the Sample App"
       redirect_to user_url(@user)  # = @user
     else

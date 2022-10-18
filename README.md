@@ -3,7 +3,7 @@
 Clone of twitter with:
  - Secured signup and log-in process
  - Management of posts
- - 
+
 ## Getting started
 To get started with the app, clone the repo and then install the needed gems:
 ```
